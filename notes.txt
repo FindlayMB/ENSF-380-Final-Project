@@ -1,0 +1,40 @@
+
+CLEAN CAGE -> once a day
+    coyote -> 10 minutes to clean each cage
+    porcupine -> 10 minutes to clean each cage
+    fox -> 5 minutes to clean each cage
+    raccoon -> 5 minutes to clean each cage
+    beaver -> 5 minutes to clean each cage
+
+FEEDING
+    Nocturnal
+        feeding can be scheduled for 12 AM, 1 AM, or 2 AM
+        fox
+        raccoon
+
+    Diurnal
+        feeding can be scheduled for 8AM, 9AM, or 10AM
+        beaver
+
+    Crepuscular
+        feeding can be scheduled for 7PM, 8PM, 9PM
+        coyote
+        porcupine
+
+    coyote -> 5 minutes to feed
+    porcupine -> 5 minutes to feed
+    fox -> 5 minutes to feed
+    raccoon -> 5 minutes to feed
+    beaver -> 5 minutes to feed
+
+FOOD PREP
+    coyote -> 10 minutes for food prep
+    porcupine -> no prep
+    fox -> 5 minutes for food prep
+    raccoon -> no prep
+    beaver -> no prep
+
+
+
+
+
