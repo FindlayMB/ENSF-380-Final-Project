@@ -1,4 +1,9 @@
 
+DATABASE LOGIN Findlay localhost
+Username: testuser@380
+Password: testuser@380
+
+
 CLEAN CAGE -> once a day
     coyote -> 10 minutes to clean each cage
     porcupine -> 10 minutes to clean each cage
@@ -28,6 +33,8 @@ FEEDING
     beaver -> 5 minutes to feed
 
 FOOD PREP
+    food prep is has to be done only once an hour for each species
+
     coyote -> 10 minutes for food prep
     porcupine -> no prep
     fox -> 5 minutes for food prep
