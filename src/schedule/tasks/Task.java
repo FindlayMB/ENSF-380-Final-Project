@@ -1,3 +1,13 @@
+/**
+ * 
+ * @author Findlay Brown
+ * @author Parsa Kargari
+ * @author Aly Mohammed
+ * @author Lujaina Eldelebshany
+ * @version 1.9.2
+ * @since 2023-04-10
+ */
+
 package schedule.tasks;
 
 public class Task {
@@ -7,73 +17,70 @@ public class Task {
      * tasks for each Animal.
      */
     private final int TASKID;
-    private String description;
-    // private int startHour;
-    private int maxWindow;
-    private int duration;
+    private final String DESCRIPTION;
+    private final int MAXWINDOW;
+    private final int DURATION;
 
     /**
+     * Task Constructor
      * 
      * @param taskID
      * @param description
-     * @param startHour
      * @param maxWindow
      * @param duration
      */
-    public Task(int taskID, String description, // int startHour,
+    public Task(int taskID, String description,
             int duration, int maxWindow) {
+        if (duration < 0) {
+            throw new IllegalArgumentException();
+        }
+        if (maxWindow < 0 || maxWindow > 24) {
+            throw new IllegalArgumentException();
+        }
+
         this.TASKID = taskID;
-        this.description = description;
-        // this.startHour = startHour;
-        this.maxWindow = maxWindow;
-        this.duration = duration;
+        this.DESCRIPTION = description;
+        this.MAXWINDOW = maxWindow;
+        this.DURATION = duration;
     }
 
-    /*
-     * Basic getters
-     */
+    // *****************
+    // GETTERS
+    // *****************
 
     /**
-     * TaskID getter
+     * TaskID Getter
      * 
-     * @return TASKID
+     * @return TASKID -> a constant integer
      */
     public int getTaskID() {
         return this.TASKID;
     }
 
     /**
-     * Description getter
+     * Description Getter
      * 
-     * @return description
+     * @return DESCRIPTION -> a constant String
      */
     public String getDescription() {
-        return this.description;
+        return this.DESCRIPTION;
     }
 
     /**
-     * MaxWindow getter
+     * MaxWindow Getter
      * 
      * @return maxWindow
      */
     public int getMaxWindow() {
-        return this.maxWindow;
+        return this.MAXWINDOW;
     }
 
     /**
-     * Duration getter
+     * Duration Getter
      * 
      * @return duration
      */
     public int getDuration() {
-        return this.duration;
+        return this.DURATION;
     }
-
-    /**
-     * 
-     * @return
-     */
-    // public int getStartHour() {
-    // return this.startHour;
-    // }
 }
