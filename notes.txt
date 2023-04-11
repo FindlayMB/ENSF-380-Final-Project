@@ -1,11 +1,11 @@
 
-DATABASE LOGIN Findlay localhost
+DATABASE LOGIN Findlay & Aly localhost
 Username: testuser@380
 Password: testuser@380
 
 
 CLEAN CAGE -> once a day
-    coyote -> 10 minutes to clean each cage
+    coyote -> 5 minutes to clean each cage
     porcupine -> 10 minutes to clean each cage
     fox -> 5 minutes to clean each cage
     raccoon -> 5 minutes to clean each cage
@@ -41,7 +41,11 @@ FOOD PREP
     raccoon -> no prep
     beaver -> no prep
 
+Standard tasks
+Feeding and cleaning cage
+Feeding can be overwritten if animal has
+the medical task: id = 1, description = kit feeding
+this can be done by making feeding task id = 1
 
-
-
+Hashmap -> keys: animal ID, values: medical tasks
 
