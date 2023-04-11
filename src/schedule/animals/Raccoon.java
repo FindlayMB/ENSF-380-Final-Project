@@ -11,10 +11,10 @@ package schedule.animals;
 
 import schedule.builder.data.ScheduleItem;
 
-public class Fox extends Animal {
+public class Raccoon extends Animal {
 
-    // Fox Constructor
-    public Fox(int ID, String nickName, String species) {
+    // Raccoon Constructor
+    public Raccoon(int ID, String nickName, String species) {
         super(ID, nickName, species);
     }
 

@@ -1,0 +1,106 @@
+The Time is : 00:00
+--Kit feeding (Annie, Oliver and Mowgli)    30 mins
+--Feeding (Slinky)    5 mins
+--Cage Cleaning (Loner)    5 mins
+--Cage Cleaning (Biter)    5 mins
+--Cage Cleaning (Bitter)    5 mins
+--Cage Cleaning (Pencil)    5 mins
+----------------------------------------------------------
+The Time is : 01:00
+--Cage Cleaning (Eraser)    5 mins
+--Cage Cleaning (Annie, Oliver and Mowgli)    5 mins
+--Cage Cleaning (Slinky)    5 mins
+--Porcupine Cage Cleaning (Spike)    10 mins
+--Porcupine Cage Cleaning (Javelin)    10 mins
+--Porcupine Cage Cleaning (Gatekeeper)    10 mins
+--Porcupine Cage Cleaning (Sunshine)    10 mins
+--Cage Cleaning (Boots)    5 mins
+----------------------------------------------------------
+The Time is : 02:00
+--Kit feeding (Annie, Oliver and Mowgli)    30 mins
+--Porcupine Cage Cleaning (Shadow)    10 mins
+--Cage Cleaning (Spin)    5 mins
+--Cage Cleaning (Spot)    5 mins
+----------------------------------------------------------
+The Time is : 03:00
+----------------------------------------------------------
+The Time is : 04:00
+--Kit feeding (Annie, Oliver and Mowgli)    30 mins
+----------------------------------------------------------
+The Time is : 05:00
+----------------------------------------------------------
+The Time is : 06:00
+--Flush neck wound (Spike)    25 mins
+--Administer antibiotics (Spike)    5 mins
+--Kit feeding (Annie, Oliver and Mowgli)    30 mins
+----------------------------------------------------------
+The Time is : 07:00
+----------------------------------------------------------
+The Time is : 08:00
+--Kit feeding (Annie, Oliver and Mowgli)    30 mins
+----------------------------------------------------------
+The Time is : 09:00
+----------------------------------------------------------
+The Time is : 10:00
+--Kit feeding (Annie, Oliver and Mowgli)    30 mins
+----------------------------------------------------------
+The Time is : 11:00
+----------------------------------------------------------
+The Time is : 12:00
+--Kit feeding (Annie, Oliver and Mowgli)    30 mins
+----------------------------------------------------------
+The Time is : 13:00
+--Eyedrops (Biter)    25 mins
+--Inspect broken leg (Biter)    5 mins
+--Give vitamin injection (Bitter)    5 mins
+--Give vitamin injection (Pencil)    5 mins
+--Give vitamin injection (Eraser)    5 mins
+----------------------------------------------------------
+The Time is : 14:00
+--Kit feeding (Annie, Oliver and Mowgli)    30 mins
+----------------------------------------------------------
+The Time is : 15:00
+--Apply burn ointment back (Shadow)    10 mins
+----------------------------------------------------------
+The Time is : 16:00
+--Kit feeding (Annie, Oliver and Mowgli)    30 mins
+----------------------------------------------------------
+The Time is : 17:00
+--Flush neck wound (Spike)    25 mins
+--Flush neck wound (Spike)    25 mins
+--Flush neck wound (Spike)    25 mins
+----------------------------------------------------------
+The Time is : 18:00
+--Administer antibiotics (Spike)    5 mins
+--Kit feeding (Annie, Oliver and Mowgli)    30 mins
+----------------------------------------------------------
+The Time is : 19:00
+--Rebandage leg wound (Slinky)    20 mins
+--Feeding (Loner)    5 mins
+--Feeding (Biter)    5 mins
+--Feeding (Bitter)    5 mins
+--Feeding (Pencil)    5 mins
+--Feeding (Eraser)    5 mins
+--Feeding (Spike)    5 mins
+----------------------------------------------------------
+The Time is : 20:00
+--Kit feeding (Annie, Oliver and Mowgli)    30 mins
+--Feeding (Javelin)    5 mins
+--Feeding (Gatekeeper)    5 mins
+--Feeding (Sunshine)    5 mins
+--Feeding (Shadow)    5 mins
+--Feeding (Spin)    5 mins
+--Feeding (Spot)    5 mins
+----------------------------------------------------------
+The Time is : 21:00
+--Feeding (Boots)    5 mins
+----------------------------------------------------------
+The Time is : 22:00
+--Eyedrops (Loner)    25 mins
+--Eyedrops (Javelin)    25 mins
+----------------------------------------------------------
+The Time is : 23:00
+--Kit feeding (Annie, Oliver and Mowgli)    30 mins
+--Mange treatment (Sunshine)    15 mins
+--Give vitamin injection (Gatekeeper)    5 mins
+----------------------------------------------------------

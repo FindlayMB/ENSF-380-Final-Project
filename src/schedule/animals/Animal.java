@@ -1,25 +1,22 @@
+/**
+ * 
+ * @author Findlay Brown
+ * @author Parsa Kargari
+ * @author Aly Mohammed
+ * @author Lujaina Eldelebshany
+ * @version 1.9.3
+ * @since 2023-04-10
+ */
+
 package schedule.animals;
 
-import java.util.ArrayList;
-import java.util.Dictionary;
-import java.util.HashMap;
+import schedule.builder.data.ScheduleItem;
 
-import schedule.tasks.Task;
-
-public interface Animal {
-    // private final int ID;
-    // private final String NAME;
-    // private String species;
-    // private HashMap<Integer, Task> standardTasks;
-    // Hashmap -> keys: animal ID, values: standard tasks
-    // Standard tasks
-    // Feeding and cleaning cage
-    // Feeding can be overwritten if animal has
-    // the medical task: id = 1, description = kit feeding
-    // this can be done by making feeding task id = 1
-
-    // private HashMap<Integer, Task> medicalTasks;
-    // Hashmap -> keys: animal ID, values: medical tasks
+public class Animal {
+    private final int ID;
+    private String nickName;
+    private String species;
+    private boolean kitStatus = false;
 
     /**
      * Animal Constructor
@@ -28,45 +25,81 @@ public interface Animal {
      * @param name    - the Animal's name/nickname
      * @param species - the species of the Animal
      */
-    // public Animal(int ID, String name, String species);
-    // public Animal(int ID, String name, String species) {
-    // this.ID = ID;
-    // this.NAME = name;
-    // this.species = species;
-    // this.standardTasks = new HashMap<Integer, Task>();
-    // this.medicalTasks = new HashMap<Integer, Task>();
-    // }
+    public Animal(int ID, String name, String species) {
+        if (ID < 0) {
+            throw new IllegalArgumentException();
+        }
+        if (name == null || name == "") {
+            throw new IllegalArgumentException();
+        }
+        if (species == null || species == "") {
+            throw new IllegalArgumentException();
+        }
 
-    /** Getters **/
+        this.ID = ID;
+        this.nickName = name;
+        this.species = species;
+    }
 
-    /**
-     * Standard getter
-     * 
-     * @return the Animal name
-     */
-    public String getName();
-    // public String getName() {
-    // return this.NAME;
-    // }
-
-    /**
-     * Standard getter
-     * 
-     * @return the standard tasks for the Animal
-     */
-    public HashMap<Integer, Task> getStandardTasks();
-    // public HashMap<Integer, Task> getStandardTasks() {
-    // return this.standardTasks;
-    // }
+    // *****************
+    // GETTERS
+    // *****************
 
     /**
-     * Standard getter
+     * ID Getter
      * 
-     * @return the medical tasks for the Animal
+     * @return ID
      */
-    public HashMap<Integer, Task> getMedicalTasks();
-    // public HashMap<Integer, Task> getMedicalTasks() {
-    // return this.medicalTasks;
-    // }
+    public int getID() {
+        return this.ID;
+    }
+
+    /**
+     * NickName Getter
+     * 
+     * @return nickName
+     */
+    public String getName() {
+        return this.nickName;
+    }
+
+    /**
+     * Species Getter
+     * 
+     * @return species
+     */
+    public String getSpecies() {
+        return this.species;
+    }
+
+    /**
+     * KitStatus Getter
+     * 
+     * @return kitStatus
+     */
+    public boolean getKitStatus() {
+        return this.kitStatus;
+    }
+
+    // *****************
+    // OTHER METHODS
+    // *****************
+
+    /**
+     * KitStatus Setter
+     */
+    public void setKitStatus() {
+        this.kitStatus = true;
+    }
+
+    /**
+     * Returns a ScheduleItem object that is the feeding task for an animal
+     * This is overwritten for each animal
+     * 
+     * @return ScheduleItem
+     */
+    public ScheduleItem feeding() {
+        return new ScheduleItem(this.ID, 0, 0, 3, 5);
+    }
 
 }

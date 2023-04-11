@@ -11,16 +11,16 @@ package schedule.animals;
 
 import schedule.builder.data.ScheduleItem;
 
-public class Fox extends Animal {
+public class Beaver extends Animal {
 
-    // Fox Constructor
-    public Fox(int ID, String nickName, String species) {
+    // Beaver Constructor
+    public Beaver(int ID, String nickName, String species) {
         super(ID, nickName, species);
     }
 
     @Override
     public ScheduleItem feeding() {
-        // starthour = 00:00
-        return new ScheduleItem(getID(), 0, 0, 3, 5);
+        // starthour = 08:00
+        return new ScheduleItem(getID(), 0, 8, 3, 5);
     }
 }
