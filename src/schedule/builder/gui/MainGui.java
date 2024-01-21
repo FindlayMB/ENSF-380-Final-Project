@@ -9,7 +9,6 @@
 
 package schedule.builder.gui;
 
-//https://github.com/abarcomb-work/ENSF380-WS2023/blob/main/Lesson23_GUI/04_GUIPetID/GUIPetID.java
 import java.awt.BorderLayout;
 import javax.swing.*;
 
@@ -117,23 +116,3 @@ public class MainGui extends JFrame implements ActionListener, MouseListener {
         return;
     }
 }
-// calls a gui
-// public void schedule
-// public void getTables() {
-// try {
-// dataImport.getAnimalsTable();
-// dataImport.getTasksTable();
-// dataImport.getTreatmentsTable();
-// } catch (Exception e) {
-// System.out.println(e);
-// }
-// // System.out.println(animals);
-// // System.out.println(tasks);
-// // System.out.println(treatments);
-// }
-// // public static void main(String[] args) {
-// // EventQueue.invokeLater(() -> {
-// // new GuiScheduler().setVisible(true);
-// // });
-// // }
-// }
