@@ -1,8 +1,4 @@
 
-DATABASE LOGIN Findlay & Aly localhost
-Username: testuser@380
-Password: testuser@380
-
 
 CLEAN CAGE -> once a day
     coyote -> 5 minutes to clean each cage
