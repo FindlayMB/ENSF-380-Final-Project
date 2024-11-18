@@ -2,6 +2,8 @@
 
 Final Project for ENSF 380 Course
 
+Project Grade: 100%
+
 ## Final Project – Learning Outcomes
 - Design and document an object-oriented Java application
 - Connect to and import data from a given database
